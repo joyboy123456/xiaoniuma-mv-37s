@@ -1,0 +1,16 @@
+{
+  "purpose": "blind independent Claude MV creation",
+  "audio": {
+    "path": "assets/song_37s.m4a",
+    "sha256": "d28dcc424819e81ce7b8b994abb9f66bf0fd7b398116efa1314e4f1d1fbe1e2c",
+    "duration_seconds": 37.011995,
+    "codec": "AAC mono 44100Hz"
+  },
+  "lyrics": {
+    "path": "lyrics.txt",
+    "sha256": "5804a4b3c7875bf05d141d6e688ede605f2a7e1c70ab57029ebc233960c94b6f",
+    "nonempty_lines": 19
+  },
+  "starter_upstream": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+  "note": "No Codex MV output or implementation is included in this blind package."
+}
