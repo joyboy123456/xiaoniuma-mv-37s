@@ -1,5 +1,2 @@
-// config.js: project settings.
-//   duration: the video's length in seconds.
-//   bpm:      the rhythm that bounces, dances and pulse() follow. Clawd always moves to some beat; if the video has music,
-//             set this to the song's tempo, and set offset to the time in seconds of its first downbeat.
-const PROJECT = { duration: 11, bpm: 120, offset: 0 };
+// config.js: project settings. 小牛马 MV: 37.012 s song, 129 BPM, first downbeat ≈ 0.30 s (work/audio/tempo2.py).
+const PROJECT = { duration: 37.0, bpm: 129, offset: 0.30, audio: '../assets/song_37s.m4a' };
